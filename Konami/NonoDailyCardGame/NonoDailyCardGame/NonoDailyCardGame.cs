@@ -217,7 +217,7 @@ namespace NonoDailyCardGame
         private readonly Color m_robotIdentifierColor = Color.FromArgb(255, 40, 90, 180);
         private readonly Color m_girlIdentifierColor = Color.FromArgb(255, 240, 90, 145);
         private readonly Color m_bombermanIdentifierColor = Color.FromArgb(255, 255, 225, 170);
-        private readonly Color m_goemonIdentifierColor = Color.FromArgb(255, 230, 55, 35);
+        private readonly Color m_goemonIdentifierColor = Color.FromArgb(255, 25, 10, 140);
         #endregion
 
         #region Constructor
@@ -268,7 +268,7 @@ namespace NonoDailyCardGame
                 {
                     (new Point(42, 19), m_bombermanIdentifierColor, CharacterType.Bomberman),
                     (new Point(55, 8), m_girlIdentifierColor, CharacterType.Girl),
-                    (new Point(42, 58), m_goemonIdentifierColor, CharacterType.Goemon),
+                    (new Point(55, 20), m_goemonIdentifierColor, CharacterType.Goemon),
                     (new Point(48, 11), m_rabbitIdentifierColor, CharacterType.Rabbit),
                     (new Point(53, 22), m_robotIdentifierColor, CharacterType.Robot)
                 };
@@ -291,7 +291,7 @@ namespace NonoDailyCardGame
             {
                 {CharacterType.Bomberman, (new List<Point>{new Point(49, 9), new Point(48, 34), new Point(57, 32), new Point(51, 20), new Point(31, 29)}, m_bombermanIdentifierColor)},
                 {CharacterType.Girl, (new List<Point>{new Point(41, 15), new Point(39, 10), new Point(45, 13), new Point(50, 14), new Point(42, 11)}, m_girlIdentifierColor)},
-                {CharacterType.Goemon, (new List<Point>{new Point(56, 51), new Point(49, 49), new Point(55, 60), new Point(59, 68), new Point(38, 72)}, m_goemonIdentifierColor)},
+                {CharacterType.Goemon, (new List<Point>{new Point(55, 20), new Point(55, 20), new Point(55, 20), new Point(55, 20), new Point(55, 20)}, m_goemonIdentifierColor)},
                 {CharacterType.Rabbit, (new List<Point>{new Point(81, 9), new Point(55, 11), new Point(38, 5), new Point(31, 18), new Point(69, 4)}, m_rabbitIdentifierColor)},
                 {CharacterType.Robot, (new List<Point>{new Point(37, 54), new Point(68, 32), new Point(27, 45), new Point(27, 49), new Point(48, 45)}, m_robotIdentifierColor)},
             };
