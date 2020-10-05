@@ -504,6 +504,11 @@ namespace NonoDailyCardGame
     {
         static void Main(string[] args)
         {
+            if (args.Length < 2 || args[0] == "your_email" || args[1] == "your_password")
+            {
+                return;
+            }
+
             NetworkRequestHelper.Instance.OnRequestFailure += (networkRequestData) =>
             {
                 Console.WriteLine($"An unexpected error occured! ({networkRequestData.url})");
