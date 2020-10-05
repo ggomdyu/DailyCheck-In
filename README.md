@@ -1,5 +1,5 @@
 # DailyCheck-In
-Do the daily check-in automatically on eCommerce sites, game sites, or anywhere!  
+The daily check-in automation program
 
 ## How to use
 ### GmarketDailyCheckin
