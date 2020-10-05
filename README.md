@@ -1,5 +1,5 @@
 # DailyCheck-In
-The daily check-in automation program
+The serverless daily check-in automation project
 
 ## How to use
 ### GmarketDailyCheckin
