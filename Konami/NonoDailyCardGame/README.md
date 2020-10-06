@@ -1,4 +1,4 @@
-# How to use
+# How to Use
 1. Create a bare clone of this repository.
 ```
 git clone --bare https://github.com/ggomdyu/DailyCheck-In.git
