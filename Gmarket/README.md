@@ -1,4 +1,4 @@
-## How to use
+## How to Use
 ### GmarketDailyCheckin
 Enter the command below in terminal.
 > Replace <your_id> and <your_password> with your actual Gmarket website's id and password.
